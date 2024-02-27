@@ -1,0 +1,5 @@
+.torch_checkpoints/*
+
+*.pth
+
+__pycache__

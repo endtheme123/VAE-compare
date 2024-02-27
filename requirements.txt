@@ -1,0 +1,63 @@
+brotlipy==0.7.0
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1700303426725/work/certifi
+cffi @ file:///C:/b/abs_49n3v2hyhr/croot/cffi_1670423218144/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+colorama==0.4.6
+contourpy==1.1.1
+cryptography @ file:///C:/b/abs_f4do8t8jfs/croot/cryptography_1694444424531/work
+cycler==0.11.0
+einops==0.7.0
+filelock @ file:///C:/b/abs_c7yrhs9uz2/croot/filelock_1672387617533/work
+fonttools==4.42.1
+fsspec==2023.12.2
+huggingface-hub==0.20.2
+idna @ file:///C:/b/abs_bdhbebrioa/croot/idna_1666125572046/work
+imageio==2.31.3
+importlib-resources==6.0.1
+Jinja2 @ file:///C:/b/abs_7cdis66kl9/croot/jinja2_1666908141852/work
+joblib==1.3.2
+kiwisolver==1.4.5
+lazy_loader==0.3
+lxml==5.0.1
+MarkupSafe @ file:///C:/ci/markupsafe_1654508077284/work
+matplotlib==3.8.0
+mkl-fft==1.3.6
+mkl-random @ file:///C:/Users/dev-admin/mkl/mkl_random_1682977971003/work
+mkl-service==2.4.0
+mpmath @ file:///C:/b/abs_7833jrbiox/croot/mpmath_1690848321154/work
+networkx @ file:///C:/b/abs_e6gi1go5op/croot/networkx_1690562046966/work
+numpy @ file:///C:/b/abs_f6napi3n6e/croot/numpy_and_numpy_base_1691091651337/work
+opencv-python==4.8.1.78
+packaging==23.1
+pandas==2.1.4
+Pillow==9.3.0
+pip-date==1.0.5
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyOpenSSL @ file:///C:/b/abs_08f38zyck4/croot/pyopenssl_1690225407403/work
+pyparsing==3.1.1
+PySocks @ file:///C:/ci/pysocks_1605307512533/work
+python-dateutil==2.8.2
+pytz==2023.3.post1
+PyWavelets==1.4.1
+PyYAML==6.0.1
+regex==2023.12.25
+requests @ file:///C:/b/abs_316c2inijk/croot/requests_1690400295842/work
+safetensors==0.4.1
+scikit-image==0.21.0
+scikit-learn==1.3.0
+scipy==1.11.2
+six==1.16.0
+sympy @ file:///C:/b/abs_95fbf1z7n6/croot/sympy_1668202411612/work
+threadpoolctl==3.2.0
+tifffile==2023.8.30
+tokenizers==0.15.0
+torch==2.0.0
+torchaudio==2.0.0
+torchvision==0.15.0
+tqdm==4.66.1
+transformers==4.36.2
+typing_extensions @ file:///C:/b/abs_213vg2cd1l/croot/typing_extensions_1690297804941/work
+tzdata==2023.4
+urllib3 @ file:///C:/b/abs_889_loyqv4/croot/urllib3_1686163174463/work
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306162074/work
+zipp==3.16.2
