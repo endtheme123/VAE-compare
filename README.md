@@ -63,4 +63,3 @@ For more details, please refer to the publication.
 
 ---
 
-Feel free to adjust the formatting or add any additional information as needed!
