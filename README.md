@@ -1,19 +1,66 @@
-# Variational Autoencoder for Anomaly Detection:A Comparative Study
 
-This Git is the implementation of the paper "Variational Autoencoder for Anomaly Detection:A Comparative Study"
+# Variational Autoencoder for Anomaly Detection: A Comparative Study
 
-The model can be directly tested on the [MVTec](https://www.mvtec.com/company/research/datasets/mvtec-ad/downloads) and [MiAD](https://miad-2022.github.io/) dataset, but downloading these 2 dataset prior to the experiment run is required. Change the dataset link in `datasets.py` to link these dataset to the experiment.
+This repository contains the implementation of the paper titled "Variational Autoencoder for Anomaly Detection: A Comparative Study". This paper code base is developed based on the code from [Hugo's original paper](https://github.com/HGangloff/vae_grf).
 
-The libraries we used in our enviroments was exported to the `requirements.txt` file => use `pip install -r requirements.txt` on your environment to rebuild ours. Running this in Conda enviroment is recommemded since we use Conda on Windows for the experiments.
+## Getting Started
 
-To train a model run the file: use `sh vae_train.sh`. 
-- to train VAE and VAE-GRF as our experiments, the `batch_size` should be 8, `latent_image_size` should be 32, and `latent_dim` should be 256, `image_size` should be 256, you also need to change the `mad = mad.repeat(16, axis=0).repeat(16, axis=1)` in `vae_test.py` part from 16 to 8 to run VAE and VAE-GRF
+Before running the experiments, ensure you have downloaded the [MVTec](https://www.mvtec.com/company/research/datasets/mvtec-ad/downloads) and [MiAD](https://miad-2022.github.io/) datasets. Modify the dataset links in `datasets.py` accordingly to link these datasets to your experiment.
 
-- to train ViT-VAE and as our experiments, the `batch_size` should be 8, `latent_image_size` should be 14, and `latent_dim` should be 384, `image_size` should be 224, you also need to change the `mad = mad.repeat(8, axis=0).repeat(8, axis=1)` in `vae_test.py` part from 8 to 16 to run ViT-VAE
+### Prerequisites
 
+The required libraries are listed in `requirements.txt`. Install them using the following command:
 
-To test a model run the file: `sh vae_test.sh` with appropriate parameters as above.
+```bash
+pip install -r requirements.txt
+```
 
-The code is built with PyTorch and other standard librairies.
+It is recommended to run the installation in a Conda environment, especially on Windows.
 
-For more details, refer to the publication.
+## Training
+
+To train the model, execute the following command:
+
+```bash
+sh vae_train.sh
+```
+
+For training Variational Autoencoder (VAE) and VAE-GRF as per our experiments, ensure the following parameters:
+
+- `batch_size`: 8
+- `latent_image_size`: 32
+- `latent_dim`: 256
+- `image_size`: 256
+
+In `vae_test.py`, modify `mad = mad.repeat(16, axis=0).repeat(16, axis=1)` to `mad = mad.repeat(8, axis=0).repeat(8, axis=1)` to run VAE and VAE-GRF.
+
+For training ViT-VAE as per our experiments, ensure the following parameters:
+
+- `batch_size`: 8
+- `latent_image_size`: 14
+- `latent_dim`: 384
+- `image_size`: 224
+
+In `vae_test.py`, modify `mad = mad.repeat(8, axis=0).repeat(8, axis=1)` to `mad = mad.repeat(16, axis=0).repeat(16, axis=1)` to run ViT-VAE.
+
+## Testing
+
+To test the model, use the following command:
+
+```bash
+sh vae_test.sh
+```
+
+Ensure to provide the appropriate parameters as mentioned above.
+
+## Built With
+
+The code is built using PyTorch and other standard libraries.
+
+## More Information
+
+For more details, please refer to the publication.
+
+---
+
+Feel free to adjust the formatting or add any additional information as needed!
