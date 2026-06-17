@@ -1,6 +1,12 @@
 
 # Variational Autoencoder for Anomaly Detection: A Comparative Study
 
+Team member:
+- Nguyen Ha Huy Hoang
+- Nguyen Cuong Nhat
+- Dao Xuan Tung
+- Duong Quoc Trung
+
 This repository contains the implementation of the paper titled "Variational Autoencoder for Anomaly Detection: A Comparative Study". This paper code base is developed based on the code from [Hugo's original paper](https://github.com/HGangloff/vae_grf).
 
 ## Getting Started
